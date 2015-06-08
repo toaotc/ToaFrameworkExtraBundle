@@ -1,0 +1,21 @@
+{
+    "name": "toa/framework-extra-bundle",
+    "description": "This bundle provides some missing features for the symfony standard edition",
+    "keywords": ["request"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Enrico Thies",
+            "email": "enrico.thies@gmail.com"
+        }
+    ],
+    "homepage" : "https://github.com/toaotc/FrameworkExtraBundle",
+    "require": {
+        "symfony/framework-bundle": "~2.3"
+    },
+    "autoload": {
+        "psr-4": { "Toa\\Bundle\\FrameworkExtraBundle\\": "" }
+    },
+    "minimum-stability": "dev"
+}
