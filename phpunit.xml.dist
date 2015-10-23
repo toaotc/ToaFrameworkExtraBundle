@@ -12,7 +12,7 @@
          bootstrap="vendor/autoload.php"
 >
     <testsuites>
-        <testsuite name="Toa Validator Component Test Suite">
+        <testsuite name="Toa FrameworkExtraBundle Test Suite">
             <directory>./Tests/</directory>
         </testsuite>
     </testsuites>
